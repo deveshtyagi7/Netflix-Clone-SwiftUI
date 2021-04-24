@@ -13,6 +13,7 @@ struct Movie : Identifiable{
     
     var categories : [String]
     
+    var genre : HomeGenre = .AllGenres
     //Movie Detail View
     
     var year : Int
